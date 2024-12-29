@@ -4,7 +4,7 @@ This repository contains assignments completed during my web development coursew
 **Contents**
 - Responsive web design using HTML and CSS.
 - JavaScript-based interactive features (e.g., palindrome checker, bookmark manager).
-- PHP and MySQL integration for dynamic content.
+- Perl, PHP and MySQL integration for dynamic content.
 
 
 **View Demos**
