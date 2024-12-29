@@ -7,7 +7,7 @@ This repository contains assignments completed during my web development coursew
 - PHP and MySQL integration for dynamic content.
 
 
-View Demos:
+**View Demos**
 - [Lab 02: Responsive Web Design](https://cs.torontomu.ca/~h9ngo/lab02/lab02.html)
 - [Lab 03: Responsive Web Design with Bootstrap](https://cs.torontomu.ca/~h9ngo/lab03/lab03b.html)
 - [Lab 04: Interactive Bookmark Manager and Palindrome Checker with Javascript](https://cs.torontomu.ca/~h9ngo/lab04/lab04.html)
