@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration Page</title>
+    <style>
+        body {background-color: #f5eef8;}
+        input {margin-right: 20px;}
+        input[type="submit"] {padding: 5px 13px;}
+    </style>
+</head>
+
+<body>
+    <h1>Customer Registration Form</h1>
+    <form action="https://www2.cs.torontomu.ca/~h9ngo/cgi-bin/lab07b.cgi" method="post">
+        <!-- name -->
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter first name" required><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter last name" required><br><br>
+        <!-- address -->
+        <label for="address">Address:</label><br>
+        <label for="street">Street Name:</label>
+        <input type="text" id="street" name="street" placeholder="Enter street name" required>
+        <!-- city -->
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" placeholder="Enter city" required>
+        <!-- postal code -->
+        <label for="postalCode">Postal Code:</label>
+        <input type="text" id="postalCode" name="postalCode" placeholder="Enter postal code" required>
+        <!-- province -->
+        <label for="province">Province:</label>
+        <select id="province" name="province" required>
+            <option value="alberta">Alberta</option>
+            <option value="bc">British Columbia</option>
+            <option value="manitoba">Manitoba</option>
+            <option value="newBrunswick">New Brunswick</option>
+            <option value="newfoundland-labrador">Newfoundland and Labrador</option>
+            <option value="novaScotia">Nova Scotia</option>
+            <option value="ontario">Ontario</option>
+            <option value="princeEdwardIsland">Prince Edward Island</option>
+            <option value="quebec">Quebec</option>
+            <option value="saskatchewan">Saskatchewan</option>
+        </select><br><br>
+        <!-- phone number -->
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter phone number" required>
+        <!-- email -->
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter email" required><br><br>
+        <!-- file upload -->
+        <label for="file">Upload photograph</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+
+
+
+

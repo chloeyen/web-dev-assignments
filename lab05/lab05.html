@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab05</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close_fullscreen" />
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Problem 1 -->
+    <h2>Form</h2>
+    <div>
+        <label for="name">Enter Name: </label><br>
+        <input type="text" id="name" required><br>
+
+        <label for="address">Enter Address:</label><br>
+        <input type="text" id="address" required><br>
+
+        <label for="phoneNumber">Enter Phone Number:</label><br>
+        <input type="text" id="phoneNumber" placeholder="(123) 456-7890" required>
+        <small>Use format (xxx) xxx-xxxx</small>
+        <br><br>
+        
+        <button onclick="formValidation()">Submit</button>
+    </div>
+    <br>
+    <div id="displayArea"></div>
+    <br>
+
+    <!-- Problem 2 -->
+    <div id="textForm"> 
+        <label for="textInput" style="margin-right: 5px;">Enter text: </label><br>
+        <textarea id="textInput" rows="4" cols="50"></textarea>
+
+        <div id="count-display">
+            <p id="charCount">Characters: 0</p>
+            <p id="letterCount">Letters: 0</p>
+        </div>
+    </div>
+
+    <br><br>
+    <!-- Problem 3 -->
+    <div id="clickable">
+        <figure>
+            <img src="./image.png" alt="Clickable Image" id="clickable-image">
+        
+            <figcaption>Image</figcaption>
+        </figure>
+    </div>
+
+    <div class="fullScreen" id="full-screen-container">
+        <img src="" alt="Full Screen Image" id="full-screen-image">
+        <span class="close-icon material-symbols-outlined">close_fullscreen</span>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

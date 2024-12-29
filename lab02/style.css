@@ -1,0 +1,80 @@
+#large-title {
+    font-size: 6vw;
+    text-align: center;
+    color:lightcoral;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 10px ;
+    border: 5px dashed lightcoral;
+    margin: 30px;
+    animation: fadeIn 2s forwards;
+    animation-iteration-count: infinite;
+}
+
+body {
+    font-family: 'Afacad Flux', Arial, Helvetica, sans-serif; 
+    font-size: 2vw;
+}
+
+li.menu:hover {
+    background-color: rgb(224, 188, 188);
+}
+
+h2 {
+    color: rgb(179, 72, 88);
+}
+
+h3 {
+    color: rgb(179, 72, 88);
+    text-align: center;
+}
+
+#travel-details {
+    display: none;
+    color: rgb(147, 35, 138);
+}
+
+span::after {
+    content: " Hover to to read more...";
+    color: rgb(147, 35, 138)
+
+}
+
+span:hover + #travel-details{
+    display: block;
+}
+
+.maxey {
+    text-align: center;
+    float: left;
+}
+
+.maxey-img {
+    width: 25%;
+    padding: 10px;
+}
+
+.GIF {
+    width: 20%;
+    height: auto;
+    float: right;
+    margin: 0 auto;
+    padding: 25px;    
+}
+
+footer {
+    background-color: rgb(192, 212, 136);
+    padding: 10px;
+    text-align: center;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.2; 
+    }
+    to {
+        opacity: 1;
+    }
+}
+

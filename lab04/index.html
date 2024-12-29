@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3cc1aeebc1.js" crossorigin="anonymous"></script>
+    <title>Lab 04</title>
+    <style>
+        body {background-color: rgb(239, 219, 229);}
+        div {background-color: rgb(193, 222, 222);}
+    </style>
+</head>
+
+<body>
+    <!-- Problem 1 -->
+    <div>
+        <h3>My List of Bookmarks</h3>
+        <button type="button" onclick="createBookmarks()">Show bookmarks</button>
+        <ul id="bookmarkList"></ul>
+    </div> 
+    
+    <!-- Problem 2 -->
+    <div>
+        <h3>Palindrome Checker</h3>
+        <p>Drab as a fool, aloof as a bard.</p>
+        <p>It ain't over till it's over</p>
+        <p>radar</p>
+        <p>When you come to a fork in the road, take it</p>
+        <p>Marge lets Norah see Sharon's telegram.</p>
+
+        <input id="inputString" type="text" placeholder="Put in a string">
+        <button onclick="checkPalindrome()">Submit</button>
+        <p id="result"></p> 
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
+

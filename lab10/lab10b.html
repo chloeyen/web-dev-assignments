@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab10b Form</title>
+    <style>
+        body {
+            background-color: #f3e6de;
+        }
+        input {
+            margin-right: 30px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h2>City Information Form</h2>
+    <form action="https://www2.cs.torontomu.ca/~h9ngo/cgi-bin/lab10r.cgi" method="post">
+        <label for="city">City: </label>
+        <input type="text" name="city" id="city" placeholder="Enter City Name" required>
+
+        <label for="province&state">Province or State (if Applicable): </label>
+        <input type="text" name="province&state" id="province&state" placeholder="Enter Province or State">
+
+        <label for="country">Country: </label>
+        <input type="text" name="country" id="country" placeholder="Enter Country" required>
+
+        <label for="url">Image URL of the city: </label>
+        <input type="text" name="url" id="url" placeholder="Enter Image URL" required><br><br>
+
+        <button type="submit">Submit to Ruby</button>
+        <button type="submit" formaction="https://www2.cs.torontomu.ca/~h9ngo/cgi-bin/lab10p.cgi">Submit to Python</button>
+
+    </form>
+
+</body>
+</html>
+
+
+
+
+
+
