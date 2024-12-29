@@ -15,5 +15,5 @@ This repository contains assignments completed during my web development coursew
 - [Lab 06: SVG and Styling](https://cs.torontomu.ca/~h9ngo/lab06/lab06.html)
 - [Lab 07: PHP Form Handling and Validation](https://cs.torontomu.ca/~h9ngo/lab07/lab07b.html)
 - [Lab 08: Dynamic Content Display Using PHP and MySQL](https://cs.torontomu.ca/~h9ngo/lab08/lab08.php)
-- [Lab 10: Form Processing with Ruby and Python](https://cs.torontomu.ca/~h9ngo/lab10/lab10b.html)
+- [Lab 10: CGI with Ruby and Python](https://cs.torontomu.ca/~h9ngo/lab10/lab10b.html)
 
